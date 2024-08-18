@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: wordSummerizer
+Version: 0.0.0
+Summary: A package to summarize the text
+Home-page: https://github.com/Vraj2503/Text-Summarization
+Author: Vraj2503
+Author-email: vrajpatel250304@gmail.com
+Project-URL: Bug Tracker, https://github.com/Vraj2503/Text-Summarization/issues
+Description-Content-Type: text/markdown
+
+Text-Summarization
