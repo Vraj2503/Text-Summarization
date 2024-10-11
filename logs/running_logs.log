@@ -1,0 +1,71 @@
+2024-08-24 00:06:07,595  - INFO - main - Logging is working fine
+2024-08-24 00:06:17,351  - INFO - main - Logging is working fine
+2024-09-28 15:36:17,427  - INFO - common - created directory at: artifacts
+2024-09-28 15:36:17,429  - INFO - common - created directory at: artifacts/data_ingestion
+2024-09-28 15:36:19,501  - INFO - 3593469894 - artifacts/data_ingestion/summarizer-data.zip download! with following info: Server: GitHub.com
+Date: Sat, 28 Sep 2024 10:06:19 GMT
+Content-Type: text/html; charset=utf-8
+Vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With
+ETag: W/"4df2a03467ebed00c7e461c80d338a78"
+Cache-Control: max-age=0, private, must-revalidate
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Frame-Options: deny
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Referrer-Policy: no-referrer-when-downgrade
+Content-Security-Policy: default-src 'none'; base-uri 'self'; child-src github.com/assets-cdn/worker/ github.com/webpack/ github.com/assets/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com *.rel.tunnels.api.visualstudio.com wss://*.rel.tunnels.api.visualstudio.com objects-origin.githubusercontent.com copilot-proxy.githubusercontent.com api.githubcopilot.com api.individual.githubcopilot.com api.business.githubcopilot.com api.enterprise.githubcopilot.com proxy.individual.githubcopilot.com proxy.business.githubcopilot.com proxy.enterprise.githubcopilot.com *.actions.githubusercontent.com wss://*.actions.githubusercontent.com productionresultssa0.blob.core.windows.net/ productionresultssa1.blob.core.windows.net/ productionresultssa2.blob.core.windows.net/ productionresultssa3.blob.core.windows.net/ productionresultssa4.blob.core.windows.net/ productionresultssa5.blob.core.windows.net/ productionresultssa6.blob.core.windows.net/ productionresultssa7.blob.core.windows.net/ productionresultssa8.blob.core.windows.net/ productionresultssa9.blob.core.windows.net/ productionresultssa10.blob.core.windows.net/ productionresultssa11.blob.core.windows.net/ productionresultssa12.blob.core.windows.net/ productionresultssa13.blob.core.windows.net/ productionresultssa14.blob.core.windows.net/ productionresultssa15.blob.core.windows.net/ productionresultssa16.blob.core.windows.net/ productionresultssa17.blob.core.windows.net/ productionresultssa18.blob.core.windows.net/ productionresultssa19.blob.core.windows.net/ github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com copilot-workspace.githubnext.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: blob: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com avatars.githubusercontent.com private-avatars.githubusercontent.com github-cloud.s3.amazonaws.com objects.githubusercontent.com secured-user-images.githubusercontent.com/ user-images.githubusercontent.com/ private-user-images.githubusercontent.com opengraph.githubassets.com github-production-user-asset-6210df.s3.amazonaws.com customer-stories-feed.github.com spotlights-feed.github.com objects-origin.githubusercontent.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/ secured-user-images.githubusercontent.com/ private-user-images.githubusercontent.com github-production-user-asset-6210df.s3.amazonaws.com gist.github.com; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; upgrade-insecure-requests; worker-src github.com/assets-cdn/worker/ github.com/webpack/ github.com/assets/ gist.github.com/assets-cdn/worker/
+Set-Cookie: _gh_sess=z6rNBUN1u0J%2FFW%2F9Louia8I0k77UovMFQ0IGr01H3EhXlmRUCZGK3D8NWjigK1em8ZuiQNvYz2OAiQWlhUyVgufBjZjdvf%2FIFgks7mxPEi5aKi3Ke%2F3e7XMhmdLJstmp%2FPsLSJaUtDL0z1E15IG3V72t0eTb36W0R2jSUnthoAPcXm9yEfLWz2Ds2jBFMNnaWnUlrj1zWksjHbBDc%2FQuN%2BfsQb0Id8IkBCP%2B3teO2cXQXMqa9pyZx11pyCIJCYpKwZ7Nu6%2Bq1ZZa7uCqgwn29Q%3D%3D--vDZAiRLOZWF6ybIb--Z%2FcVq2Op2whDSnS5octTrA%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+Set-Cookie: _octo=GH1.1.488886178.1727517978; Path=/; Domain=github.com; Expires=Sun, 28 Sep 2025 10:06:18 GMT; Secure; SameSite=Lax
+Set-Cookie: logged_in=no; Path=/; Domain=github.com; Expires=Sun, 28 Sep 2025 10:06:18 GMT; HttpOnly; Secure; SameSite=Lax
+Accept-Ranges: bytes
+Transfer-Encoding: chunked
+X-GitHub-Request-Id: 361F:2BA3BF:E4AF69:FF0EBB:66F7D51A
+connection: close
+
+
+2024-09-28 15:37:06,766  - INFO - common - created directory at: artifacts
+2024-09-28 15:37:06,769  - INFO - common - created directory at: artifacts/data_ingestion
+2024-09-28 15:37:06,770  - INFO - 3593469894 - The file already exists at ~ 294 KB
+2024-09-28 15:38:43,304  - INFO - common - created directory at: artifacts
+2024-09-28 15:38:43,304  - INFO - common - created directory at: artifacts/data_ingestion
+2024-09-28 15:38:43,319  - INFO - 3593469894 - The file already exists at ~ 294 KB
+2024-09-28 15:39:15,893  - INFO - common - created directory at: artifacts
+2024-09-28 15:39:15,894  - INFO - common - created directory at: artifacts/data_ingestion
+2024-09-28 15:39:15,896  - INFO - 3593469894 - The file already exists at ~ 294 KB
+2024-09-28 15:39:55,216  - INFO - common - created directory at: artifacts
+2024-09-28 15:39:55,218  - INFO - common - created directory at: artifacts/data_ingestion
+2024-09-28 15:39:55,218  - INFO - 3593469894 - The file already exists at ~ 294 KB
+2024-09-28 15:40:33,706  - INFO - common - created directory at: artifacts
+2024-09-28 15:40:33,706  - INFO - common - created directory at: artifacts/data_ingestion
+2024-09-28 15:40:33,706  - INFO - 3593469894 - The file already exists at ~ 294 KB
+2024-09-28 15:46:27,327  - INFO - common - created directory at: artifacts
+2024-09-28 15:46:27,328  - INFO - common - created directory at: artifacts/data_ingestion
+2024-09-28 15:46:27,330  - INFO - 3593469894 - The file already exists at ~ 294 KB
+2024-09-28 15:46:47,666  - INFO - common - created directory at: artifacts
+2024-09-28 15:46:47,666  - INFO - common - created directory at: artifacts/data_ingestion
+2024-09-28 15:46:53,565  - INFO - 3593469894 - artifacts/data_ingestion/summarizer-data.zip download! with following info: Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: EACD:17766D:5A7F7:69E5F:66F7D78E
+Accept-Ranges: bytes
+Date: Sat, 28 Sep 2024 10:16:50 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4725-BOM
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1727518610.595440,VS0,VE863
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 6317df37fc088990774fcd840c38b48989fd6563
+Expires: Sat, 28 Sep 2024 10:21:50 GMT
+Source-Age: 0
+
+
