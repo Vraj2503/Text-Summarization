@@ -69,3 +69,83 @@ Expires: Sat, 28 Sep 2024 10:21:50 GMT
 Source-Age: 0
 
 
+2024-10-12 16:45:30,238  - INFO - common - created directory at: artifacts
+2024-10-12 16:45:30,240  - INFO - common - created directory at: artifacts/data_validation
+2024-10-12 16:59:37,910  - INFO - common - created directory at: artifacts
+2024-10-12 16:59:37,910  - INFO - common - created directory at: artifacts/data_validation
+2024-10-13 00:11:02,598  - INFO - main - Started Data Ingestion Stage
+2024-10-13 00:11:02,598  - ERROR - main - DataIngestionTrainingPipeline.main() takes 0 positional arguments but 1 was given
+Traceback (most recent call last):
+  File "c:\Users\ASUS\Desktop\Text Summarization\main.py", line 10, in <module>
+    data_ingestion.main()
+TypeError: DataIngestionTrainingPipeline.main() takes 0 positional arguments but 1 was given
+2024-10-13 00:15:55,749  - INFO - main - Started Data Ingestion Stage
+2024-10-13 00:15:55,749  - INFO - common - created directory at: artifacts
+2024-10-13 00:15:55,749  - INFO - common - created directory at: artifacts/data_ingestion
+2024-10-13 00:15:59,386  - INFO - data_ingestion - artifacts/data_ingestion/summarizer-data.zip download! with following info: Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 7D9C:1FBED2:1BF1BB:2108AD:670AC3E5
+Accept-Ranges: bytes
+Date: Sat, 12 Oct 2024 18:45:58 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4739-BOM
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1728758758.878498,VS0,VE614
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: f2ff1f1452b6cd417be867c011c846a5fc7c8506
+Expires: Sat, 12 Oct 2024 18:50:58 GMT
+Source-Age: 0
+
+
+2024-10-13 00:15:59,563  - INFO - main - Completed Data Ingestion Stage
+2024-10-13 00:15:59,563  - INFO - main - Started Data Validation Stage
+2024-10-13 00:15:59,566  - ERROR - main - DataValidationTrainingPipeline.main() takes 0 positional arguments but 1 was given
+Traceback (most recent call last):
+  File "c:\Users\ASUS\Desktop\Text Summarization\main.py", line 24, in <module>
+    data_validation.main()
+TypeError: DataValidationTrainingPipeline.main() takes 0 positional arguments but 1 was given
+2024-10-13 00:16:27,344  - INFO - main - Started Data Ingestion Stage
+2024-10-13 00:16:27,359  - INFO - common - created directory at: artifacts
+2024-10-13 00:16:27,359  - INFO - common - created directory at: artifacts/data_ingestion
+2024-10-13 00:16:30,195  - INFO - data_ingestion - artifacts/data_ingestion/summarizer-data.zip download! with following info: Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 7D9C:1FBED2:1BF1BB:2108AD:670AC3E5
+Accept-Ranges: bytes
+Date: Sat, 12 Oct 2024 18:46:28 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4723-BOM
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1728758789.746434,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 17936fe01a5b536ea04c231dfe530eb09dbb798c
+Expires: Sat, 12 Oct 2024 18:51:28 GMT
+Source-Age: 30
+
+
+2024-10-13 00:16:30,350  - INFO - main - Completed Data Ingestion Stage
+2024-10-13 00:16:30,350  - INFO - main - Started Data Validation Stage
+2024-10-13 00:16:30,350  - INFO - common - created directory at: artifacts
+2024-10-13 00:16:30,350  - INFO - common - created directory at: artifacts/data_validation
+2024-10-13 00:16:30,357  - INFO - main - Completed Data Validation Stage
