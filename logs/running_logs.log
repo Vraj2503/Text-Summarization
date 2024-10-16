@@ -149,3 +149,134 @@ Source-Age: 30
 2024-10-13 00:16:30,350  - INFO - common - created directory at: artifacts
 2024-10-13 00:16:30,350  - INFO - common - created directory at: artifacts/data_validation
 2024-10-13 00:16:30,357  - INFO - main - Completed Data Validation Stage
+2024-10-13 00:34:41,736  - INFO - config - PyTorch version 2.3.1+cu121 available.
+2024-10-13 00:34:41,745  - INFO - config - TensorFlow version 2.16.1 available.
+2024-10-13 00:43:54,198  - INFO - common - created directory at: artifacts
+2024-10-13 00:43:54,200  - INFO - common - created directory at: artifacts/data_transformation
+2024-10-14 18:28:13,424  - INFO - config - PyTorch version 2.3.1+cu121 available.
+2024-10-14 18:28:13,424  - INFO - config - TensorFlow version 2.16.1 available.
+2024-10-14 18:28:20,654  - INFO - common - created directory at: artifacts
+2024-10-14 18:28:20,659  - INFO - common - created directory at: artifacts/data_transformation
+2024-10-14 18:33:28,065  - INFO - common - created directory at: artifacts
+2024-10-14 18:33:28,066  - INFO - common - created directory at: artifacts/data_transformation
+2024-10-14 18:34:11,988  - INFO - common - created directory at: artifacts
+2024-10-14 18:34:11,990  - INFO - common - created directory at: artifacts/data_transformation
+2024-10-15 00:38:56,151  - INFO - config - PyTorch version 2.3.1+cu121 available.
+2024-10-15 00:38:56,151  - INFO - config - TensorFlow version 2.16.1 available.
+2024-10-15 00:38:56,564  - INFO - main - Started Data Ingestion Stage
+2024-10-15 00:38:56,581  - INFO - common - created directory at: artifacts
+2024-10-15 00:38:56,581  - INFO - common - created directory at: artifacts/data_ingestion
+2024-10-15 00:39:03,364  - INFO - data_ingestion - artifacts/data_ingestion/summarizer-data.zip download! with following info: Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 7D6B:3B4C44:2F4EBE:3D29D7:670D6C4A
+Accept-Ranges: bytes
+Date: Mon, 14 Oct 2024 19:09:00 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4742-BOM
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1728932939.206141,VS0,VE1093
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 564c6193a931ee01a5dcc4913346691d34f20af7
+Expires: Mon, 14 Oct 2024 19:14:00 GMT
+Source-Age: 1
+
+
+2024-10-15 00:39:03,491  - INFO - main - Completed Data Ingestion Stage
+2024-10-15 00:39:03,491  - INFO - main - Started Data Validation Stage
+2024-10-15 00:39:03,491  - INFO - common - created directory at: artifacts
+2024-10-15 00:39:03,491  - INFO - common - created directory at: artifacts/data_validation
+2024-10-15 00:39:03,491  - INFO - main - Completed Data Validation Stage
+2024-10-15 00:39:03,491  - INFO - main - Started Data Transformation Stage
+2024-10-15 00:39:03,506  - INFO - common - created directory at: artifacts
+2024-10-15 00:39:03,508  - INFO - common - created directory at: artifacts/data_transformation
+2024-10-15 00:39:03,508  - ERROR - main - 'NoneType' object has no attribute 'tokenizer_name'
+Traceback (most recent call last):
+  File "c:\Users\ASUS\Desktop\Text Summarization\main.py", line 39, in <module>
+    data_transformation.main()
+  File "c:\users\asus\desktop\text summarization\src\wordSummerizer\pipeline\stage_03_data_transformation.py", line 12, in main
+    data_transformation = DataTransformation(config = data_transformation_config)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\asus\desktop\text summarization\src\wordSummerizer\components\data_transformation.py", line 12, in __init__
+    self.tokenizer = AutoTokenizer.from_pretrained(config.tokenizer_name)
+                                                   ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'tokenizer_name'
+2024-10-15 00:41:16,137  - INFO - config - PyTorch version 2.3.1+cu121 available.
+2024-10-15 00:41:16,137  - INFO - config - TensorFlow version 2.16.1 available.
+2024-10-15 00:41:16,374  - INFO - main - Started Data Ingestion Stage
+2024-10-15 00:41:16,374  - INFO - common - created directory at: artifacts
+2024-10-15 00:41:16,374  - INFO - common - created directory at: artifacts/data_ingestion
+2024-10-15 00:41:16,374  - INFO - data_ingestion - The file already exists at ~ 7718 KB
+2024-10-15 00:41:16,476  - INFO - main - Completed Data Ingestion Stage
+2024-10-15 00:41:16,476  - INFO - main - Started Data Validation Stage
+2024-10-15 00:41:16,476  - INFO - common - created directory at: artifacts
+2024-10-15 00:41:16,476  - INFO - common - created directory at: artifacts/data_validation
+2024-10-15 00:41:16,476  - INFO - main - Completed Data Validation Stage
+2024-10-15 00:41:16,476  - INFO - main - Started Data Transformation Stage
+2024-10-15 00:41:16,484  - INFO - common - created directory at: artifacts
+2024-10-15 00:41:16,484  - INFO - common - created directory at: artifacts/data_transformation
+2024-10-15 00:41:16,484  - ERROR - main - 'NoneType' object has no attribute 'tokenizer_name'
+Traceback (most recent call last):
+  File "c:\Users\ASUS\Desktop\Text Summarization\main.py", line 39, in <module>
+    data_transformation.main()
+  File "c:\users\asus\desktop\text summarization\src\wordSummerizer\pipeline\stage_03_data_transformation.py", line 12, in main
+    data_transformation = DataTransformation(config = data_transformation_config)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\asus\desktop\text summarization\src\wordSummerizer\components\data_transformation.py", line 12, in __init__
+    self.tokenizer = AutoTokenizer.from_pretrained(config.tokenizer_name)
+                                                   ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'tokenizer_name'
+2024-10-15 00:47:14,421  - INFO - config - PyTorch version 2.3.1+cu121 available.
+2024-10-15 00:47:14,434  - INFO - config - TensorFlow version 2.16.1 available.
+2024-10-15 00:47:16,617  - INFO - common - created directory at: artifacts
+2024-10-15 00:47:16,618  - INFO - common - created directory at: artifacts/data_transformation
+2024-10-15 00:47:30,924  - INFO - config - PyTorch version 2.3.1+cu121 available.
+2024-10-15 00:47:30,932  - INFO - config - TensorFlow version 2.16.1 available.
+2024-10-15 00:47:31,173  - INFO - main - Started Data Ingestion Stage
+2024-10-15 00:47:31,173  - INFO - common - created directory at: artifacts
+2024-10-15 00:47:31,173  - INFO - common - created directory at: artifacts/data_ingestion
+2024-10-15 00:47:31,173  - INFO - data_ingestion - The file already exists at ~ 7718 KB
+2024-10-15 00:47:31,270  - INFO - main - Completed Data Ingestion Stage
+2024-10-15 00:47:31,270  - INFO - main - Started Data Validation Stage
+2024-10-15 00:47:31,270  - INFO - common - created directory at: artifacts
+2024-10-15 00:47:31,270  - INFO - common - created directory at: artifacts/data_validation
+2024-10-15 00:47:31,278  - INFO - main - Completed Data Validation Stage
+2024-10-15 00:47:31,278  - INFO - main - Started Data Transformation Stage
+2024-10-15 00:47:31,280  - INFO - common - created directory at: artifacts
+2024-10-15 00:47:31,280  - INFO - common - created directory at: artifacts/data_transformation
+2024-10-15 00:47:31,280  - ERROR - main - 'NoneType' object has no attribute 'tokenizer_name'
+Traceback (most recent call last):
+  File "c:\Users\ASUS\Desktop\Text Summarization\main.py", line 39, in <module>
+    data_transformation.main()
+  File "c:\users\asus\desktop\text summarization\src\wordSummerizer\pipeline\stage_03_data_transformation.py", line 12, in main
+    data_transformation = DataTransformation(config = data_transformation_config)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\asus\desktop\text summarization\src\wordSummerizer\components\data_transformation.py", line 12, in __init__
+    self.tokenizer = AutoTokenizer.from_pretrained(config.tokenizer_name)
+                                                   ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'tokenizer_name'
+2024-10-15 00:52:15,014  - INFO - config - PyTorch version 2.3.1+cu121 available.
+2024-10-15 00:52:15,030  - INFO - config - TensorFlow version 2.16.1 available.
+2024-10-15 00:52:15,244  - INFO - main - Started Data Ingestion Stage
+2024-10-15 00:52:15,259  - INFO - common - created directory at: artifacts
+2024-10-15 00:52:15,259  - INFO - common - created directory at: artifacts/data_ingestion
+2024-10-15 00:52:15,259  - INFO - data_ingestion - The file already exists at ~ 7718 KB
+2024-10-15 00:52:15,357  - INFO - main - Completed Data Ingestion Stage
+2024-10-15 00:52:15,357  - INFO - main - Started Data Validation Stage
+2024-10-15 00:52:15,357  - INFO - common - created directory at: artifacts
+2024-10-15 00:52:15,357  - INFO - common - created directory at: artifacts/data_validation
+2024-10-15 00:52:15,357  - INFO - main - Completed Data Validation Stage
+2024-10-15 00:52:15,357  - INFO - main - Started Data Transformation Stage
+2024-10-15 00:52:15,357  - INFO - common - created directory at: artifacts
+2024-10-15 00:52:15,357  - INFO - common - created directory at: artifacts/data_transformation
+2024-10-15 00:52:19,772  - INFO - main - Completed Data Transformation Stage
