@@ -280,3 +280,72 @@ AttributeError: 'NoneType' object has no attribute 'tokenizer_name'
 2024-10-15 00:52:15,357  - INFO - common - created directory at: artifacts
 2024-10-15 00:52:15,357  - INFO - common - created directory at: artifacts/data_transformation
 2024-10-15 00:52:19,772  - INFO - main - Completed Data Transformation Stage
+2024-10-19 00:09:37,331  - INFO - config - PyTorch version 2.3.1+cu121 available.
+2024-10-19 00:09:37,338  - INFO - config - TensorFlow version 2.16.1 available.
+2024-10-19 00:10:18,280  - WARNING - module_wrapper - From c:\Users\ASUS\AppData\Local\Programs\Python\Python312\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-10-19 00:28:16,147  - INFO - common - created directory at: artifacts
+2024-10-19 00:28:16,149  - INFO - common - created directory at: artifacts/model_trainer
+2024-10-19 00:33:05,598  - INFO - common - created directory at: artifacts
+2024-10-19 00:33:05,598  - INFO - common - created directory at: artifacts/model_trainer
+2024-10-19 00:33:52,207  - INFO - common - created directory at: artifacts
+2024-10-19 00:33:52,207  - INFO - common - created directory at: artifacts/model_trainer
+2024-10-19 00:33:58,109  - INFO - common - created directory at: artifacts
+2024-10-19 00:33:58,110  - INFO - common - created directory at: artifacts/model_trainer
+2024-10-19 00:34:32,262  - INFO - common - created directory at: artifacts
+2024-10-19 00:34:32,270  - INFO - common - created directory at: artifacts/model_trainer
+2024-10-19 00:34:49,296  - INFO - common - created directory at: artifacts
+2024-10-19 00:34:49,296  - INFO - common - created directory at: artifacts/model_trainer
+2024-10-19 00:35:20,969  - INFO - common - created directory at: artifacts
+2024-10-19 00:35:20,970  - INFO - common - created directory at: artifacts/model_trainer
+2024-10-26 01:00:30,642  - WARNING - module_wrapper - From c:\Users\ASUS\AppData\Local\Programs\Python\Python312\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-10-26 01:00:31,238  - INFO - config - PyTorch version 2.3.1+cu121 available.
+2024-10-26 01:00:31,245  - INFO - config - TensorFlow version 2.16.1 available.
+2024-10-26 01:00:45,321  - INFO - common - created directory at: artifacts
+2024-10-26 01:00:45,321  - INFO - common - created directory at: artifacts/model_trainer
+2024-10-26 01:05:55,402  - WARNING - module_wrapper - From c:\Users\ASUS\AppData\Local\Programs\Python\Python312\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-10-26 01:05:55,922  - INFO - config - PyTorch version 2.3.1+cu121 available.
+2024-10-26 01:05:55,922  - INFO - config - TensorFlow version 2.16.1 available.
+2024-10-26 01:06:05,681  - INFO - common - created directory at: artifacts
+2024-10-26 01:06:05,681  - INFO - common - created directory at: artifacts/model_trainer
+2024-10-26 01:13:19,139  - WARNING - module_wrapper - From c:\Users\ASUS\AppData\Local\Programs\Python\Python312\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-10-26 01:13:19,604  - INFO - config - PyTorch version 2.3.1+cu121 available.
+2024-10-26 01:13:19,604  - INFO - config - TensorFlow version 2.16.1 available.
+2024-10-26 01:13:37,901  - INFO - common - created directory at: artifacts
+2024-10-26 01:13:37,909  - INFO - common - created directory at: artifacts/model_trainer
+2024-10-26 01:15:45,926  - WARNING - module_wrapper - From c:\Users\ASUS\AppData\Local\Programs\Python\Python312\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-10-26 01:15:46,204  - INFO - config - PyTorch version 2.3.1+cu121 available.
+2024-10-26 01:15:46,204  - INFO - config - TensorFlow version 2.16.1 available.
+2024-10-26 01:16:10,605  - INFO - common - created directory at: artifacts
+2024-10-26 01:16:10,607  - INFO - common - created directory at: artifacts/model_trainer
+2024-10-26 01:22:31,543  - WARNING - module_wrapper - From c:\Users\ASUS\AppData\Local\Programs\Python\Python312\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-10-26 01:22:31,956  - INFO - config - PyTorch version 2.3.1+cu121 available.
+2024-10-26 01:22:31,963  - INFO - config - TensorFlow version 2.16.1 available.
+2024-10-26 01:22:36,193  - INFO - common - created directory at: artifacts
+2024-10-26 01:22:36,193  - INFO - common - created directory at: artifacts/model_trainer
+2024-10-26 01:27:02,565  - WARNING - module_wrapper - From c:\Users\ASUS\AppData\Local\Programs\Python\Python312\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-10-26 01:27:03,045  - INFO - config - PyTorch version 2.3.1+cu121 available.
+2024-10-26 01:27:03,045  - INFO - config - TensorFlow version 2.16.1 available.
+2024-10-26 01:27:06,223  - INFO - common - created directory at: artifacts
+2024-10-26 01:27:06,223  - INFO - common - created directory at: artifacts/model_trainer
+2024-10-30 20:55:22,880  - INFO - config - PyTorch version 2.3.1+cu121 available.
+2024-10-30 20:55:22,888  - INFO - config - TensorFlow version 2.16.1 available.
+2024-10-30 21:11:56,933  - INFO - common - created directory at: artifacts
+2024-10-30 21:11:56,934  - INFO - common - created directory at: artifacts/model_evaluation
+2024-10-31 12:47:03,925  - INFO - config - PyTorch version 2.3.1+cu121 available.
+2024-10-31 12:47:03,925  - INFO - config - TensorFlow version 2.16.1 available.
+2024-10-31 12:47:07,230  - INFO - common - created directory at: artifacts
+2024-10-31 12:47:07,230  - INFO - common - created directory at: artifacts/model_evaluation
+2024-10-31 12:54:22,587  - INFO - common - created directory at: artifacts
+2024-10-31 12:54:22,590  - INFO - common - created directory at: artifacts/model_evaluation
+2024-10-31 12:57:36,141  - INFO - config - PyTorch version 2.3.1+cu121 available.
+2024-10-31 12:57:36,141  - INFO - config - TensorFlow version 2.16.1 available.
+2024-10-31 12:57:39,152  - INFO - common - created directory at: artifacts
+2024-10-31 12:57:39,152  - INFO - common - created directory at: artifacts/model_evaluation
+2024-10-31 12:59:42,520  - INFO - rouge_scorer - Using default tokenizer.
